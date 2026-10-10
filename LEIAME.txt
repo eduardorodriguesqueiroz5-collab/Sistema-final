@@ -1,0 +1,12 @@
+O SISTEMA - pacote PWA (base para gerar o APK)
+
+1) Publique esta pasta em uma hospedagem gratuita com HTTPS
+   (Netlify Drop, GitHub Pages ou Cloudflare Pages).
+2) Abra https://www.pwabuilder.com, cole o link do seu site e toque em Start.
+3) Escolha Package for stores > Android. Baixe o pacote: ele contém o APK
+   para instalar direto e o AAB para a Google Play.
+4) Guarde o arquivo de chave (keystore) que o PWABuilder gerar. Sem ele você
+   não consegue atualizar o app depois.
+
+Sem hospedar nada, também funciona: abra o link no Chrome do Android,
+menu (3 pontos) > Adicionar à tela inicial.
